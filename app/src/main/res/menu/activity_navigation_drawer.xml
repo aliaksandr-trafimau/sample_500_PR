@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--TODO: correct icons-->
+        <item
+            android:id="@+id/blog_menu_item"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Blog" />
+        <item
+            android:id="@+id/control_points_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Control Points" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_voice_control"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Voice control" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Services state" />
+        <item
+            android:id="@+id/nav_complaint"
+            android:icon="@drawable/ic_bug_report_black_24dp"
+            android:title="Create complaint" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send notification" />
+        </menu>
+    </item>
+
+</menu>
